@@ -1,0 +1,30 @@
+.section__title {
+  padding-top: 80px;
+  text-align: center;
+
+  &-text {
+    font-weight: 700;
+    font-size: 40px;
+    color: #22577E;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.sub__title {
+
+  &-text {
+    color: #22577E;
+  }
+}
+
+.card__content {
+
+  &-text {
+    size: 120%;
+    color: white;
+  }
+}

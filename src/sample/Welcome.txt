@@ -1,0 +1,49 @@
+<div>
+  <v-container v-if="$vuetify.breakpoint.xs" fluid fill-height class="mobile__content">
+    <v-row>
+      <v-col class="mobile__content-text">
+        <p>Welcome to my website.</p>
+        <p>I'm a enginner.</p>
+      </v-col>
+    </v-row>
+  </v-container>
+  <v-container v-else fluid fill-height class="pc__content">
+    <v-row>
+      <v-col class="pc__content-text">
+        <p>Welcome to my website.</p>
+        <p>I'm a enginner.</p>
+      </v-col>
+    </v-row>
+  </v-container>
+</div>
+
+<style  lang="scss" scoped>
+.pc__content {
+  background: url("../assets/Home_drums.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 90vh;
+
+  &-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+.mobile__content {
+  background: url("../assets/Home_drums.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 50vh;
+
+  &-text {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+</style>
