@@ -23,9 +23,9 @@
       <v-col cols="10" md="5" lg="5" xl="5">
         <v-card color="#22577E" outlined tile>
           <v-card-title class="white--text , justify-center">- Language -</v-card-title>
-              <v-card-text class="white--text">Java★★★☆☆<br>あああああああ</v-card-text>
-              <v-card-text class="white--text">Python&emsp;★★★☆☆<br>あああああああ</v-card-text>
-              <v-card-text class="white--text">JavaScript&emsp;★★★☆☆<br>あああああああ</v-card-text>
+              <v-card-text class="white--text">Java&emsp;★★★☆☆<br>あああああああ</v-card-text>
+              <v-card-text class="white--text">Python<br>あああああああ</v-card-text>
+              <v-card-text class="white--text">JavaScript<br>あああああああ</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="10" md="5" lg="5" xl="5">
@@ -44,7 +44,7 @@
       <v-col cols="10" md="5" lg="5" xl="5">
         <v-card color="#22577E" class="fill-height" outlined tile>
           <v-card-title class="white--text , justify-center">- OS -</v-card-title>
-            <v-card-text class="white--text">Windows<br>あああああああ</v-card-text>
+            <v-card-text class="white--text">Windows&emsp;★★★☆☆<br>あああああああ</v-card-text>
             <v-card-text class="white--text">Linux&emsp;★★★☆☆<br>あああああああ</v-card-text>
         </v-card>
       </v-col>
