@@ -29,7 +29,7 @@
 
 <style  lang="scss" scoped>
 .bg {
-  background: url("../assets/tmp.png");
+  background: url("../assets/welcome.png");
   background-size: cover;
   width: 100%;
   height: 100%;

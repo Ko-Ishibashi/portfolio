@@ -6,7 +6,7 @@
       </v-row>
       <v-row class="about__contents">
         <v-col md="5" class="about__contents-img">
-          <v-img src="../assets/Home_drums.jpg" alt="" class="img-fluid"></v-img>
+          <v-img src="../assets/profile.png" alt="" class="img-fluid"></v-img>
         </v-col>
         <v-col md="5">
           <div class="about__contents-title">Profile</div>
@@ -34,7 +34,7 @@
           <div class="about__contents-text">AWS Certified Developer-Associate</div>
         </v-col>
         <v-col md="5" class="about__contents-img">
-          <v-img src="../assets/Home_drums.jpg" alt="" class="img-fluid"></v-img>
+          <v-img src="../assets/qualification.jpg" alt="" class="img-fluid"></v-img>
         </v-col>
       </v-row>
     </v-container>
