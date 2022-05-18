@@ -66,7 +66,7 @@
           <v-card-title class="white--text , justify-center">- Others -</v-card-title>
             <v-card-text class="white--text">Git&emsp;★★★★☆<br>&emsp;開発経験：1年</v-card-text>
             <v-card-text class="white--text">AWS&emsp;★★☆☆☆<br>&emsp;個人学習：3ヶ月</v-card-text>
-             <v-card-text class="white--text">Vue.js&emsp;★★☆☆☆<br>&emsp;開発経験：6ヶ月</v-card-text>
+             <v-card-text class="white--text">Azure&emsp;★★☆☆☆<br>&emsp;開発経験：8ヶ月</v-card-text>
         </v-card>
       </v-col>
       <v-col cols="10" md="5" lg="5" xl="5">
