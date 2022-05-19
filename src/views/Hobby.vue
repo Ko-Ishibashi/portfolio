@@ -29,10 +29,13 @@
     </v-col>
     <v-col cols="12" md="4" lg="4" xl="4" align="center">
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-fish</v-icon>&nbsp;Diving</div>
-      <div class="hobby__contents-text">1aaaaaaaaaaaaaaaaaaaa</div>
+      <div class="hobby__contents-text">PADI OPEN WATER DIVER <br>中学生の頃からいろいろな海に潜っています</div>
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-palm-tree</v-icon>&nbsp;Trip</div>
+      <div class="hobby__contents-text">海外旅行が好きです<br>スペイン・パリ・パラオ・セブ・バリ...others</div>
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-music</v-icon>&nbsp;Drums</div>
-      <div class="hobby__contents-title"><v-icon color="#22577E">mdi-dog</v-icon>&nbsp;Dog</div>
+      <div class="hobby__contents-text">高校生の頃にバンドを組んでドラムをしていました</div>
+      <div class="hobby__contents-title"><v-icon color="#22577E">mdi-dog</v-icon>&nbsp;Animal</div>
+      <div class="hobby__contents-text">動物ならなんでも好きです</div>
     </v-col>
     </v-row>
   </v-container>
