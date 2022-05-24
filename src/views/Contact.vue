@@ -48,29 +48,29 @@ export default {
     email: null,
     message: null,
     nameRules: [
-      value => !!value || '–¼‘O‚Í•K{‚Å‚·B',
-      value => (value || '').length <= 20 || '20•¶ŽšˆÈ“à‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B',
+      value => !!value || 'åå‰ã¯å¿…é ˆã§ã™ã€‚',
+      value => (value || '').length <= 20 || '20æ–‡å­—ä»¥å†…ã§å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚',
     ],
     emailRules: [
-      value => !!value || 'ƒ[ƒ‹ƒAƒhƒŒƒX‚Í•K{‚Å‚·B',
+      value => !!value || 'ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã¯å¿…é ˆã§ã™ã€‚',
       value => {
         const pattern = /^(([^<>()[\]\\.,;:\s@]+(\.[^<>()[\]\\.,;:\s@]+)*)|(.+))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-        return pattern.test(value) || 'ƒ[ƒ‹ƒAƒhƒŒƒX‚ÌŒ`Ž®‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñB'
+        return pattern.test(value) || 'ãƒ¡ãƒ¼ãƒ«ã‚¢ãƒ‰ãƒ¬ã‚¹ã®å½¢å¼ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“ã€‚'
       },
     ],
     messageRules: [
-      value => !!value || 'ƒƒbƒZ[ƒW‚Í•K{‚Å‚·B',
-      value => (value || '').length <= 400 || '400•¶ŽšˆÈ“à‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B',
+      value => !!value || 'ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã¯å¿…é ˆã§ã™ã€‚',
+      value => (value || '').length <= 400 || '400æ–‡å­—ä»¥å†…ã§å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚',
     ],
   }),
   mounted(){
-    //ƒGƒ‰[‚ðƒŠƒZƒbƒg
+    //ã‚¨ãƒ©ãƒ¼ã‚’ãƒªã‚»ãƒƒãƒˆ
     this.$refs.form.resetValidation()
   },
   methods: {
     submit() {
       if(this.$refs.form.validation()){
-        //‘—Mˆ—
+        //é€ä¿¡å‡¦ç†
       }
     },
     clear () {

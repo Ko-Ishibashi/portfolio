@@ -15,12 +15,12 @@
         :src="item.src"
       >
         <v-row
-          class="fill-height , white--text"
+          class="fill-height , font-italic , white--text"
           align="end"
           justify="center"
           height="auto"
         >
-        <div class="text-h2">
+        <div class="body">
           {{ item.text }}
         </div>
         </v-row>
@@ -29,13 +29,13 @@
     </v-col>
     <v-col cols="12" md="4" lg="4" xl="4" align="center">
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-fish</v-icon>&nbsp;Diving</div>
-      <div class="hobby__contents-text">PADI OPEN WATER DIVER <br>’†Šw¶‚Ì ‚©‚ç‚¢‚ë‚¢‚ë‚ÈŠC‚Éö‚Á‚Ä‚¢‚Ü‚·</div>
+      <div class="hobby__contents-text">PADI OPEN WATER DIVER <br>ä¸­å­¦ç”Ÿã®é ƒã‹ã‚‰ã„ã‚ã„ã‚ãªæµ·ã«æ½œã£ã¦ã„ã¾ã™</div>
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-palm-tree</v-icon>&nbsp;Trip</div>
-      <div class="hobby__contents-text">ŠCŠO—·s‚ªD‚«‚Å‚·<br>ƒXƒyƒCƒ“EƒpƒŠEƒpƒ‰ƒIEƒZƒuEƒoƒŠ...others</div>
+      <div class="hobby__contents-text">æµ·å¤–æ—…è¡ŒãŒå¥½ãã§ã™<br>ã‚¹ãƒšã‚¤ãƒ³ãƒ»ãƒ‘ãƒªãƒ»ãƒ‘ãƒ©ã‚ªãƒ»ã‚»ãƒ–ãƒ»ãƒãƒª...others</div>
       <div class="hobby__contents-title"><v-icon color="#22577E">mdi-music</v-icon>&nbsp;Drums</div>
-      <div class="hobby__contents-text">‚Z¶‚Ì ‚Éƒoƒ“ƒh‚ğ‘g‚ñ‚Åƒhƒ‰ƒ€‚ğ‚µ‚Ä‚¢‚Ü‚µ‚½</div>
-      <div class="hobby__contents-title"><v-icon color="#22577E">mdi-dog</v-icon>&nbsp;Animal</div>
-      <div class="hobby__contents-text">“®•¨‚È‚ç‚È‚ñ‚Å‚àD‚«‚Å‚·</div>
+      <div class="hobby__contents-text">é«˜æ ¡ç”Ÿã®é ƒã«ãƒãƒ³ãƒ‰ã‚’çµ„ã‚“ã§ãƒ‰ãƒ©ãƒ ã‚’ã—ã¦ã„ã¾ã—ãŸ</div>
+      <div class="hobby__contents-title"><v-icon color="#22577E">mdi-dog</v-icon>&nbsp;Meru</div>
+      <div class="hobby__contents-text">ã†ã¡ã®çŠ¬ãŒä¸–ç•Œä¸€ã‹ã‚ã„ã„ã§ã™</div>
     </v-col>
     </v-row>
   </v-container>
@@ -71,10 +71,10 @@ export default{
   data () {
     return {
       items: [
-        {src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',text: '1'},
-        {src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',text: '2'},
-        {src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',text: '3'},
-        {src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',text: '4'},
+        {src: require('../assets/miyakojima.jpg') , text: 'Miyakojima : Sea turtle'},
+        {src: require('../assets/champs_elysees.jpg') , text: 'France : Champs Elysees'},
+        {src: require('../assets/drums.jpg') , text: 'Sendai Hook in 2016'},
+        {src: require('../assets/meru.jpg') , text: 'Ishibashi MerumeruPrincessâ… '},
       ],
     }
   }
