@@ -1,7 +1,7 @@
 <template>
   <v-container mb-12>
     <v-row class="section__title">
-        <v-col class="section__title-text">My Career</v-col>
+        <v-col class="section__title-text">My Career(2021/02 - 2022/08)</v-col>
     </v-row>
     <v-row
       align-content="center"
@@ -87,7 +87,7 @@ export default {
         {period: '2021/02 - 2021/04',work: 'プログラミング研修'},
         {period: '2021/05 - 2021/05',work: '災害情報WEB管理システム'},
         {period: '2021/06 - 2021/09',work: 'ガス会社在庫管理システム'},
-        {period: '2021/10 - 2022/07',work: '通信回線管理システム'},
+        {period: '2021/10 - 2022/08',work: '通信回線管理システム'},
       ],
     }
   }
